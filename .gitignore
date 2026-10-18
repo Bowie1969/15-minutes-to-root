@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Offline run artefacts — never commit raw telemetry, pcaps, or operator logs
+relaylab-run-*/
+operator/
+telemetry/
+network/
+relay/
+target/
